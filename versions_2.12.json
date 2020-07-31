@@ -1,0 +1,73 @@
+{
+  "loader_version": "2.12",
+  "loader_version_compat": [],
+  "announcement": "Try our new Dead by Daylight cheat! Uses the same keys as Fortnite",
+  "plugins": [
+    {
+      "id": "pg",
+      "name": {
+        "en": "PUBG Mobile hack [32-bit]",
+        "zh-hans": "和平精英 移动版 辅助",
+        "zh-hant": "刺激戰場 移動版 輔助"
+      },
+      "version": "12.42.6",
+      "url": "https://download.ksk2oskwv-pd.com/pg/pg/12.42.6/plugin_pg_128_7ce24ff59.apk",
+      "safe": true
+    },
+    {
+      "id": "pg64",
+      "name": {
+        "en": "PUBG Mobile hack [64-bit]",
+        "zh-hans": "和平精英 移动版 辅助 [64-bit]",
+        "zh-hant": "刺激戰場 移動版 輔助 [64-bit]"
+      },
+      "version": "12.42.6-arm64",
+      "url": "https://download.ksk2oskwv-pd.com/pg/pg/12.42.6/plugin_pg64_128_7ce24ff59.apk",
+      "safe": true
+    },
+    {
+      "id": "codm",
+      "name": {
+        "en": "Call of Duty Mobile hack",
+        "zh-hans": "使命召唤® 移动版 辅助",
+        "zh-hant": "決勝時刻® 移動版 辅助"
+      },
+      "version": "2.5",
+      "url": "https://download.ksk2oskwv-pd.com/pg/codm/2.5/plugin_codm_25_37980d829.apk",
+      "safe": true
+    },
+    {
+      "id": "fortnite",
+      "name": {
+        "en": "Fortnite Mobile hack",
+        "zh-hans": "堡垒之夜 移动版 辅助",
+        "zh-hant": "要塞英雄 移動版 辅助"
+      },
+      "version": "1.2.1",
+      "url": "https://download.ksk2oskwv-pd.com/pg/fortnite/1.2/plugin_fortnite_8_8acb87311.apk",
+      "safe": true
+    },
+    {
+      "id": "fydxd",
+      "name": {
+        "en": "FYDXD hack",
+        "zh-hans": "风云岛行动 辅助",
+        "zh-hant": "風雲島行動 輔助"
+      },
+      "version": "1.2",
+      "url": "https://download.ksk2oskwv-pd.com/pg/fydxd/1.2/plugin_fydxd_7_e93bee2d.apk",
+      "safe": true
+    },
+    {
+      "id": "dbd",
+      "name": {
+        "en": "Dead by Daylight hack",
+        "zh-hans": "黎明杀机 辅助",
+        "zh-hant": "黎明死線 輔助"
+      },
+      "version": "1.0.2",
+      "url": "https://download.ksk2oskwv-pd.com/pg/dbd/1.0.2/plugin_dbd_11_9049fdeec.apk",
+      "safe": true
+    }
+  ]
+}
