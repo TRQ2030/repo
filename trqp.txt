@@ -13317,3 +13317,8 @@
 127.0.0.1 zzlt.qq.com 
 127.0.0.1 zzxy.qq.com 
 127.0.0.1 zzz.qq.com
+127.0.0.1 14tsg.tdatamaster.com
+127.0.0.1 htsg.tdatamaster.com
+127.0.0.1 jtsg.tdatamaster.com
+127.0.0.1 sg.tdatamaster.com
+127.0.0.1 tsg.tdatamaster.com
