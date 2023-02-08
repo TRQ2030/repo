@@ -20,11 +20,11 @@
         },
         {
             "name":"ADMIN_REWARDED_AD_TYPE",
-            "value":"ADMOB"
+            "value":"MAX"
         },
         {
             "name":"ADMIN_REWARDED_ADMOB_ID",
-            "value":"ca-app-pub-3940256099942544/8691691433"
+            "value":"ca-app-pub-0/0"
         },
         {
             "name":"ADMIN_INTERSTITIAL_ADMOB_ID",
