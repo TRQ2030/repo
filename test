@@ -16,7 +16,7 @@
         },
         {
             "name":"subscription",
-            "value":"TRUE"
+            "value":"com.virlabs.demo_flx_application.subs"
         },
         {
             "name":"ADMIN_REWARDED_AD_TYPE",
@@ -63,7 +63,7 @@
         },
         {
             "name":"ADMIN_NATIVE_LINES",
-            "value":3
+            "value":1
         },
         {
             "name":"ADMIN_NATIVE_TYPE",
