@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>JWPlayer with hls.js engine and P2P demo</title>
+    <script src="//ssl.p.jwpcdn.com/player/v/8.34.0/jwplayer.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/@swarmcloud/hls/sw-p2p-engine.min.js"></script>
+    <style>
+        #wrapper {
+            width: 720px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <div id="player"></div>
+</div>
+
+<script>
+    jwplayer.key = "uoW6qHjBL3KNudxKVnwa3rt5LlTakbko9e6aQ6VUyKQ=";
+    var p2pConfig = {
+        live: false,        // set to true in live mode
+        swFile: './sw.js',
+        // trackerZone: 'hk',        // if using Hongkong tracker
+        // trackerZone: 'us',        // if using USA tracker
+        // token: YOUR_TOKEN
+        // Other p2pConfig options provided by CDNBye
+    };
+    new P2PEngineHls.ServiceWorkerEngine(p2pConfig);
+    var player = jwplayer("player");
+    P2PEngineHls.tryRegisterServiceWorker(p2pConfig).then(() => {
+        player.setup({
+            file: "https://test-streams.mux.dev/x36xhzz/url_2/193039199_mp4_h264_aac_ld_7.m3u8",
+            width: 512,
+            height: 288,
+            muted: true,
+            autostart: true,
+            hlsjsdefault: true,
+            hlsjsConfig: {
+                // debug: true,
+                // Other hlsjsConfig options provided by hls.js
+                p2pConfig
+            },
+        });
+    });
+</script>
+</body>
+</html>
